@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HelloNewWorld</string>
+    <string name="main_activity">MainActivity</string>
+    <string name="second_activity">SecondActivity</string>
+</resources>
