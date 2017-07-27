@@ -12,15 +12,17 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/main_activity">
-            <intent-filter><!--作用，让MainActivity成为主界面-->
+            <intent-filter> <!-- 作用，让MainActivity成为主界面 -->
                 <action android:name="android.intent.action.MAIN" />
-                <action android:name="com.lianxi.huang.hellonewworld.MainActivity"/>
+                <action android:name="com.lianxi.huang.hellonewworld.MainActivity" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".SecondActivity"
-            android:label="@string/second_activity"></activity>
+            android:label="@string/second_activity" />
+        <activity android:name=".calculateActivity"></activity>
     </application>
 
 </manifest>
